@@ -8,7 +8,7 @@ library(sf)
 library(ggplot2)
 library(viridis)
 library(gridExtra)
-workdir <- '/Volumes/WorkSpace/ClosingGap/onGit/data'
+workdir <- '/Volumes/WorkSpace/ClosingGap/onGit/geo_data'
 setwd(workdir)
 
 ######################################################################
