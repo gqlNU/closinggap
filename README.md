@@ -3,7 +3,7 @@
 
 ## Data
 - The file `smi_closingthegap.RData` contains the SMI prevalence and the associated covariates at the LSOA level;
-- The folder `England` contains the graph files for MSOAs, Districts and CCGs. Each graph file defines the neighbourhood structure at that geographical level. These graph files are INLA inputs.
+- The three files with extension `.graph` are the graph files for MSOAs, Districts and CCGs. Each graph file defines the neighbourhood structure at that geographical level. These graph files are INLA inputs.
  
 ##  R code for model fitting
 
@@ -13,6 +13,7 @@ The code below assumes all the above files are stored under the following folder
 - `C:/closinggap/England/LADspadj.graph`
 - `C:/closinggap/England/MSOAspadj.graph`
 
+Note: save the three graph files in the folder `England`.
 
 ```R
 library(foreign)
