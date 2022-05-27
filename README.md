@@ -14,7 +14,7 @@ The code below assumes all the above files are stored under the following folder
 - `C:/closinggap/England/MSOAspadj.graph`
 
 
-```
+```R
 library(foreign)
 library(INLA)
 library(sf)
